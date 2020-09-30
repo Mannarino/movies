@@ -1,0 +1,78 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>javascript moises mannarino</title>
+<link rel="stylesheet" type="text/css" href="modal.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+       .imagen{
+       	width: 100%;
+       }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+	  <div class="navbar navbar-dark bg-dark shadow-sm">
+	    <div class="container d-flex justify-content-between">
+	      <a href="#" class="navbar-brand d-flex align-items-center">
+	        <strong>Javascript Moises frontend</strong>
+	      </a>
+	    </div>
+	  </div>
+	</header>
+
+<main role="main">
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1>buscar pelicula</h1>
+     <form name="search">
+	  <div class="form-group">
+	    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="searchInput">
+	  </div>
+	  <button type="submit" class="btn btn-primary" id="btnLookingFor">buscar pelicula</button>
+	</form>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row" id="contenedor-lista-themovies">
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+    <p>Desarrollado por Mannarino </p>
+    
+  </div>
+</footer>
+<div class="fondonegro" id="fondonegro" onclick="estilosSalidaFondoYModal()"></div>
+<div  id="modalito">
+</div>
+<script type="text/javascript" src="logica.js"></script>
+<script type="text/javascript" src="estiloscss.js"></script>
+</body>
